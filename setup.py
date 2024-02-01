@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='keyCipher',
-    version='0.1',
+    version='3',
     packages=find_packages(),
     description='A Python library for key-based encoding and decoding.',
     long_description=open('README.md').read() + ", no longer description available",
