@@ -3,7 +3,8 @@ import random
 testing_key = 5
 
 
-def encode(data, key, usablechar):
+# encode texts based on key given encode(data, key)
+def encode(data, key, usablechar=" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"):
     result = ""
     chars = list(usablechar)
     length = len(usablechar)
@@ -19,7 +20,9 @@ def encode(data, key, usablechar):
 
     return result
 
-def decode(data, key, usablechar):
+
+# decode texts, will decode correctly with correct key decode(data, key)
+def decode(data, key, usablechar=" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"):
     result = ""
     chars = list(usablechar)
     length = len(usablechar)

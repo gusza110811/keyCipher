@@ -10,7 +10,7 @@ setup(
     author='Gusza1108 / Gusza110811 / Sarunphat',
     author_email='auguz1108@email.com',
     url='https://github.com/gusza110811/keyCipher',
-    keywords=['encryption', 'decryption', 'key-based'],
+    keywords=['encryption', 'decryption', 'key-based', 'open-source'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: GNU License',
