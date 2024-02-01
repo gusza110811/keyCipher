@@ -38,6 +38,8 @@ def decode(data, key, usablechar=" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKL
 
     return result
 
+
+# test the library test(key)
 def test(key):
     text = ""
     usablechar = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
