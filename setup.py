@@ -5,7 +5,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     description='A Python library for key-based encoding and decoding.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md').read() + ", no longer description available",
     license='GNU',
     author='Gusza1108 / Gusza110811 / Sarunphat',
     author_email='auguz1108@email.com',
